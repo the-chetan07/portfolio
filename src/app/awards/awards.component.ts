@@ -8,7 +8,7 @@ import { routerTransition } from '../router.animations';
   animations: [routerTransition()]
 })
 export class AwardsComponent implements OnInit {
-  public awards: object = {
+  public awards = {
     title: 'Awards & Certifications',
     data: [
       { name: 'Start Contributor 2017 For Microsoft Project', from: 'B2X Service Solutions India Pvt. Ltd.' },
