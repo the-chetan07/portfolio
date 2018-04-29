@@ -1,0 +1,20 @@
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills" [@routerTransition]>
+  <div class="my-auto">
+    <h2 class="mb-5">{{ skills.title }}</h2>
+
+    <div class="subheading mb-3">{{ skills.heading }}</div>
+    <ul class="list-inline list-icons">
+      <li *ngFor="let lang of skills.languages" class="list-inline-item">
+        <i class="devicons devicons-{{ lang }}" title="{{ lang }}"></i>
+      </li>
+    </ul>
+
+    <div class="subheading mb-3">{{ skills.heading2 }}</div>
+    <ul class="fa-ul mb-0">
+      <li *ngFor="let extra of skills.extras">
+        <i class="fa-li fa fa-check"></i>
+        {{ extra.name }} <a *ngIf="extra.href" href="{{ extra.href }}" target="_blank">{{ extra.hrefText }}</a>
+      </li>
+    </ul>
+  </div>
+</section>
