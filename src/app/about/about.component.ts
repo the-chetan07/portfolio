@@ -8,7 +8,7 @@ import { routerTransition } from '../router.animations';
   animations: [routerTransition()]
 })
 export class AboutComponent implements OnInit {
-  public personalInfo: object = {
+  public personalInfo = {
     firstName: 'Chetan',
     lastName: 'Patil',
     address: 'Kalyan (W), Pin: 421301, Maharashtra, India.',

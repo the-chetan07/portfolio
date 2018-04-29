@@ -9,7 +9,7 @@ import { routerTransition } from '../router.animations';
 })
 export class EducationComponent implements OnInit {
 
-  public education: object = {
+  public education = {
     title: 'Education',
     eduHistory: [
       {

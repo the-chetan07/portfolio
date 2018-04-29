@@ -9,7 +9,7 @@ import { routerTransition } from '../router.animations';
 })
 export class SkillsComponent implements OnInit {
 
-  public skills: object = {
+  public skills = {
     title: 'Skills',
     heading: 'Programming Languages & Tools',
     languages: [ 'html5', 'css3', 'bootstrap', 'javascript', 'angular', 'nodejs_small', 'npm', 'grunt', 'linux', 'jira', 'postgresql', 'jenkins', 'git' ],

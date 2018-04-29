@@ -9,7 +9,7 @@ import { routerTransition } from '../router.animations';
 })
 export class ExperienceComponent implements OnInit {
 
-  public experience: object = {
+  public experience = {
       title: 'Experience',
       workHistory: [
         {
