@@ -20,6 +20,11 @@ export class SkillsComponent implements OnInit {
         name: 'NPM Package To Connect JIRA From Node.Js(REST API)',
         href: 'https://www.npmjs.com/package/build-jira',
         hrefText: 'build-jira'
+      },
+      {
+        name: 'NPM Package For Instamojo Payment Gateway REST API',
+        href: 'https://www.npmjs.com/package/pay-instamojo',
+        hrefText: 'pay-instamojo'
       }
     ]
   }
