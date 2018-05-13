@@ -25,6 +25,11 @@ export class SkillsComponent implements OnInit {
         name: 'NPM Package For Instamojo Payment Gateway REST API',
         href: 'https://www.npmjs.com/package/pay-instamojo',
         hrefText: 'pay-instamojo'
+      },
+      {
+        name: 'NPM Package For Formatting jsonschema Validation Error',
+        href: 'https://www.npmjs.com/package/jsonschema-formatter',
+        hrefText: 'jsonschema-formatter'
       }
     ]
   }
